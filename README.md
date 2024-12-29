@@ -1,33 +1,48 @@
-# Mpesa-Daraja-Api-NODE.JS
+# ⚡ Node.js Starter Function
 
-How to install this projet
+A simple starter function. Edit `src/main.js` to get started and create something awesome! 🚀
 
-1. Clone the project
+## 🧰 Usage
 
-2. Run npm install
+### GET /ping
 
-3. Run npm start app.js or nodemon app.js
+- Returns a "Pong" message.
 
-4. Open your browser and go to http://localhost:3000
+**Response**
 
-5. You can now use the API
+Sample `200` Response:
 
-How to use the API
+```text
+Pong
+```
 
-1. Go to http://localhost:3000
+### GET, POST, PUT, PATCH, DELETE /
 
-2. Click on the link you want to use
+- Returns a "Learn More" JSON response.
 
-3. You can now use the API
+**Response**
 
-How to contact me
+Sample `200` Response:
 
-1. Email: barakafrancis1@gmail.com
+```json
+{
+  "motto": "Build like a team of hundreds_",
+  "learn": "https://appwrite.io/docs",
+  "connect": "https://appwrite.io/discord",
+  "getInspired": "https://builtwith.appwrite.io"
+}
+```
 
-2. WhatsApp: +254 714 590 103
+## ⚙️ Configuration
 
-3. Phone: +254 714 590 103
+| Setting           | Value         |
+| ----------------- | ------------- |
+| Runtime           | Node (18.0)   |
+| Entrypoint        | `src/main.js` |
+| Build Commands    | `npm install` |
+| Permissions       | `any`         |
+| Timeout (Seconds) | 15            |
 
+## 🔒 Environment Variables
 
-
-
+No environment variables required.

@@ -1,27 +1,16 @@
 {
-  "name": "mpesa-api",
+  "name": "starter-template",
   "version": "1.0.0",
-  "description": "Mpesa Api in node js",
-  "main": "app.js",
+  "description": "",
+  "main": "src/main.js",
+  "type": "module",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "format": "prettier --write ."
   },
-  "keywords": [
-    "Mpesa"
-  ],
-  "author": "Infintytech",
-  "license": "ISC",
   "dependencies": {
-    "axios": "^1.4.0",
-    "body-parser": "^1.20.1",
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "fs": "^0.0.1-security",
-    "fund": "^1.0.0",
-    "moment": "^2.29.4"
+    "node-appwrite": "^12.0.1"
   },
   "devDependencies": {
-    "nodemon": "^3.0.2"
+    "prettier": "^3.2.5"
   }
 }

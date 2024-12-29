@@ -81,7 +81,7 @@ router.post('/api/stkpush', (req, res) => {
             PartyA: phoneNumber,
             PartyB: "174379",
             PhoneNumber: phoneNumber,
-            CallBackURL: "https://54ca-41-90-185-106.ngrok-free.app/api/callback",
+            CallBackURL: "https://infinitysolutions.online/",
             AccountReference: accountNumber,
             TransactionDesc: "Mpesa Daraja API stk push test",
           },

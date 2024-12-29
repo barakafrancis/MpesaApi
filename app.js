@@ -86,7 +86,7 @@ app.get("/stkpush", (req, res) => {
             PartyA: "254714590103", //phone number to receive the stk push
             PartyB: "174379",
             PhoneNumber: "",
-            CallBackURL: "https://dd3d-105-160-22-207.ngrok-free.app/callback",
+            CallBackURL: "https://infinitysolutions.online/callback",
             AccountReference: "MPESA DARAJA",
             TransactionDesc: "Mpesa Daraja API stk push test",
           },
@@ -134,8 +134,8 @@ app.get("/registerurl", (req, resp) => {
           {
             ShortCode: "174379",
             ResponseType: "Complete",
-            ConfirmationURL: "https://4a5e-41-90-185-106.ngrok-free.app/confirmation",
-            ValidationURL: "https://4a5e-41-90-185-106.ngrok-free.app/validation",
+            ConfirmationURL: "https://infinitysolutions.online/confirmation",
+            ValidationURL: "https://infinitysolutions.online/validation",
           },
           {
             headers: {
@@ -183,8 +183,8 @@ app.get("/b2curlrequest", (req, res) => {
             PartyA: "600426",
             PartyB: "254714590103",//phone number to receive the stk push
             Remarks: "Withdrawal",
-            QueueTimeOutURL: "https://4a5e-41-90-185-106.ngrok-free.app/b2c/queue",
-            ResultURL: "https://4a5e-41-90-185-106.ngrok-free.app/b2c/result",
+            QueueTimeOutURL: "https://infinitysolutions.online/b2c/queue",
+            ResultURL: "https://infinitysolutions.online/b2c/result",
             Occasion: "Withdrawal",
           },
           {
